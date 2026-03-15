@@ -1,0 +1,15 @@
+{
+  "name": "real-browser-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "live-browser": "node ./live-browser.mjs",
+    "browser:shared": "powershell -ExecutionPolicy Bypass -File ./launch-browsers.ps1",
+    "start-dev": "powershell -ExecutionPolicy Bypass -File ./start-dev.ps1",
+    "verify:smoke": "powershell -ExecutionPolicy Bypass -File ./verify-live-browser.ps1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

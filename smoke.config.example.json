@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:4321/AmberAardvark.net/",
+  "viewportUseIsolatedTabs": false,
+  "primaryPath": "/",
+  "secondaryPath": "/about",
+  "fillValue": "qa@example.com",
+  "typeValue": "-typed",
+  "pressKey": "Enter",
+  "crawlDepth": 1,
+  "crawlMaxLinks": 8,
+  "crawlParallelTabs": 4,
+  "crawlIncludePaths": ["/hidden-route", "/docs/some-deep-page"],
+  "networkProbePath": "/robots.txt?lb_probe=smoke"
+}
