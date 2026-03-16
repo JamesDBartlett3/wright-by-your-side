@@ -1,4 +1,5 @@
 # Wright By Your Side: A Playwright Toolkit for On-Screen Browser Automation and Testing
+<img width="1536" height="1024" alt="wright-by-your-side" src="https://github.com/user-attachments/assets/4f82feea-b262-47f9-b9c0-36eacddb2535" />
 
 This toolkit lets you attach Playwright to the same Chromium-based browser window you are already using.
 
